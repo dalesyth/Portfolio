@@ -1,0 +1,93 @@
+html {
+    background-color: rgb(110, 41, 9);
+    color: white
+}
+
+header {
+    box-sizing: border-box;
+    position: fixed;
+    height:40px;
+    padding: 5px;
+    top:0;
+    left: 0;
+    right: 0;
+    background: white;
+}
+
+header::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+
+main {
+    margin-top: 100px;
+}
+
+.aboutme {
+    display: table;
+}
+
+.links {
+    color: black;
+    text-align: center;
+    padding: 5px;
+    word-spacing: 20px
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.my-photo {
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+    display: block;
+    
+}
+
+.introduction {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.astronomy {
+   float: left;
+   left: 0;
+   right: 0;
+   border-top: solid;
+   border-bottom: solid;
+}
+
+.telescope {
+    height: 400px;
+    float: right;
+}
+
+.camping p {
+    padding-left: 50px;
+    overflow: hidden;
+}
+
+.campsite {
+    height: 400px;
+    float: left;
+}
+
+
+footer {
+    box-sizing: border-box;
+    position: fixed;
+    height: 64px;
+    padding: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    
+    background: white
+}
